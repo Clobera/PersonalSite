@@ -1,5 +1,85 @@
-#mainHeader{
-  background-color: #99a0a8;
-  color: #f6f7f5;
-  font-family: monospace;
+.mainPageHeader{
+  text-align: center;
+  color: #34241f;
+  font-family: "apercu",sans-serif;
+  font-weight: 300;
 }
+
+#mainHeader{
+  font-size: 75px;
+  padding-top: 50vh;
+}
+
+#mainHeaderTwo{
+  color: #77655f;
+}
+
+body > nav  div{
+  background-color: #a19592;
+}
+
+#navbarSupportedContent > ul > li > a:hover{
+  color: #c7a192;
+  /* border-bottom: 10px white; */
+}
+
+.fwh-slide1{
+  height: 100vh;
+  background-color: #a19592;
+  color: #faf9f9;
+  box-sizing: border-box;
+}
+
+.fwh-slide2{
+  height: 100vh;
+  background-color: #faf9f9;
+  color: black;
+  box-sizing: border-box;
+}
+
+.aboutMe{
+  margin-top: 3.5rem;
+  text-align: center;
+  font-family: "apercu",sans-serif;
+  font-weight: 300;
+  font-size: 3.5rem;
+}
+
+.abtRow{
+  /* border: 3px solid black; */
+  margin-top: 1em;
+}
+
+/* .addBorder{
+  border: 3px solid red;
+} */
+
+.aboutme__paragraph {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.skills{
+  display: flex;
+  justify-content: center;
+}
+
+.skill__row{
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.about__content {
+    flex-direction: column;
+}
+
+.skills__item:not(:last-child) {
+    margin-bottom: 4rem;
+}
+
+/* .skills__item{
+  border: 3px solid green;
+} */
