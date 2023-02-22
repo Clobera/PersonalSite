@@ -1,3 +1,4 @@
+
 .mainPageHeader{
   text-align: center;
   color: #34241f;
@@ -5,9 +6,14 @@
   font-weight: 300;
 }
 
+
+body{
+  background-image: linear-gradient(#a19592, #faf9f9, white);
+}
+
 #mainHeader{
   font-size: 75px;
-  padding-top: 50vh;
+  padding-top: 40vh;
 }
 
 #mainHeaderTwo{
@@ -25,20 +31,27 @@ body > nav  div{
 
 .fwh-slide1{
   height: 100vh;
-  background-color: #a19592;
+  /* background-image: linear-gradient(#a19592, #faf9f9); */
+  /* background-color: #a19592; */
   color: #faf9f9;
   box-sizing: border-box;
 }
 
 .fwh-slide2{
   height: 100vh;
-  background-color: #faf9f9;
+  color: black;
+  box-sizing: border-box;
+}
+
+.fwh-slide3{
+  height: 100vh;
   color: black;
   box-sizing: border-box;
 }
 
 .aboutMe{
-  margin-top: 3.5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   text-align: center;
   font-family: "apercu",sans-serif;
   font-weight: 300;
