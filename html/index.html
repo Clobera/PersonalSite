@@ -32,10 +32,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#anchor-aboutSection">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="#anchor-projectSection">Projects</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
@@ -57,7 +57,7 @@
       <div class="container text-center">
         <div class="row gx-2">
           <div class="col-xxl-12 addBorder">
-            <h3 class="aboutMe"><strong>About Me</strong></h3>
+            <h3 class="aboutMe" id="anchor-aboutSection"><strong>About Me</strong></h3>
           </div>
         </div>
 
@@ -138,15 +138,17 @@
       </div>
     </section>
 
-
-
     <section class="row fwh-slide3">
       <section class="light">
         <div class="container py-2">
-          <h3 class="aboutMe"><strong>PROJECTS</strong></h3>
+          <h3 class="aboutMe" id="anchor-projectSection"><strong>PROJECTS</strong></h3>
 
           <article class="postcard light blue">
-            <a class="postcard__img_link" href="http://18.232.244.192:8080/ItineraryShare/" target=”_blank”>
+            <a
+              class="postcard__img_link"
+              href="http://18.232.244.192:8080/ItineraryShare/"
+              target="”_blank”"
+            >
               <img
                 class="postcard__img"
                 src="images/ItineraryShare.png"
@@ -155,29 +157,94 @@
             </a>
             <div class="postcard__text t-dark">
               <h1 class="postcard__title blue">
-                <a href="http://18.232.244.192:8080/ItineraryShare/" target=”_blank”>Itinerar Share</a>
+                <a
+                  href="http://18.232.244.192:8080/ItineraryShare/"
+                  target="”_blank”"
+                  >Itinerar Share</a
+                >
               </h1>
-              <div class="postcard__subtitle small">
-                <time datetime="2020-05-25 12:00:00">
-                  <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
-                </time>
-              </div>
+              <div class="postcard__subtitle small">Group Project</div>
               <div class="postcard__bar"></div>
               <div class="postcard__preview-txt">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Eligendi, fugiat asperiores inventore beatae accusamus odit
-                minima enim, commodi quia, doloribus eius! Ducimus nemo
-                accusantium maiores velit corrupti tempora reiciendis molestiae
-                repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt
-                neque nulla unde ipsum dolores nobis enim quidem excepturi,
-                illum quos!
+                ItineraryShare is a social website to share itineraries. It
+                allows users to interact with each other around their trip
+                itineraries, as well as review and discuss specific
+                destinations.
+                <br />
+                <br />
+                <div>
+                  <strong>Technologies</strong>: Java, SQL, Spring Data JPA,
+                  Spring Boot, REST, JSON, Angular, JavaScript, TypeScript,
+                  AJAX, XHR, Bootstrap, CSS/HTML
+                </div>
               </div>
               <ul class="postcard__tagbox">
                 <li class="tag__item">
-                  <a href="http://18.232.244.192:8080/ItineraryShare/" target=”_blank”><i class="fas fa-play mr-2"></i>View Website</a>
+                  <a
+                    href="http://18.232.244.192:8080/ItineraryShare/"
+                    target="”_blank”"
+                    ><i class="fas fa-play mr-2"></i>View Website</a
+                  >
                 </li>
                 <li class="tag__item">
-                  <a href="https://github.com/Goodsy21/MidtermProject" target=”_blank”><i class="fas fa-play mr-2"></i>Go To GitHub Repository</a>
+                  <a
+                    href="https://github.com/Goodsy21/MidtermProject"
+                    target="”_blank”"
+                    ><i class="fas fa-play mr-2"></i>Go To GitHub Repository</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="postcard light blue">
+            <a
+              class="postcard__img_link"
+              href="http://18.232.244.192:8080/ArtGallery/"
+              target="”_blank”"
+            >
+              <img
+                class="postcard__img"
+                src="images/onlineArtGallery.png"
+                alt="Image Title"
+              />
+            </a>
+            <div class="postcard__text t-dark">
+              <h1 class="postcard__title blue">
+                <a
+                  href="http://18.232.244.192:8080/ArtGallery/"
+                  target="”_blank”"
+                  >Online Art Gallery</a
+                >
+              </h1>
+              <div class="postcard__subtitle small">Solo Project</div>
+              <div class="postcard__bar"></div>
+              <div class="postcard__preview-txt">
+                I decided to make an online Art gallery combining my two loves -
+                art and coding! A user can Create, Update, Delete and View art
+                pieces on the website. I wanted to create a common space for
+                anyone to upload their favorite art pieces.
+                <br />
+                <br />
+                <div>
+                  <strong>Technologies</strong>:Java, JSP, SQL, JPA, Spring
+                  Boot, MVC, BootStrap, HTML/CSS.
+                </div>
+              </div>
+              <ul class="postcard__tagbox">
+                <li class="tag__item">
+                  <a
+                    href="http://18.232.244.192:8080/ArtGallery/"
+                    target="”_blank”"
+                    ><i class="fas fa-play mr-2"></i>View Website</a
+                  >
+                </li>
+                <li class="tag__item">
+                  <a
+                    href="https://github.com/Clobera/JPACRUDProject"
+                    target="”_blank”"
+                    ><i class="fas fa-play mr-2"></i>Go To GitHub Repository</a
+                  >
                 </li>
               </ul>
             </div>
@@ -220,8 +287,6 @@
               </ul>
             </div>
           </article> -->
-          
-          
         </div>
       </section>
     </section>
