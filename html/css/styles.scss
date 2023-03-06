@@ -3,12 +3,7 @@
 $coolFont: "Zen Dots", cursive;
 
 .row {
-    --bs-gutter-x: 0;
-}
-.mainPageHeader {
-  font-family: $coolFont;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --bs-gutter-x: 0;
 }
 
 nav {
@@ -16,17 +11,16 @@ nav {
 }
 
 .mainPageHeader {
+  font-family: $coolFont;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mainPageHeader {
   text-align: center;
   color: #34241f;
   font-weight: 300;
 }
-
-body {
-//   background-image: linear-gradient(#a19592, #faf9f9, white);
-  background-image: linear-gradient(to bottom right, #a19592, #faeddb);
-  font-family: $coolFont;
-}
-
 #mainHeader {
   font-size: 75px;
   padding-top: 40vh;
@@ -34,6 +28,12 @@ body {
 
 #mainHeaderTwo {
   color: #77655f;
+}
+
+body {
+  //   background-image: linear-gradient(#a19592, #faf9f9, white);
+  background-image: linear-gradient(to bottom right, #a19592, #faeddb);
+  font-family: $coolFont;
 }
 
 body > nav div {
@@ -47,12 +47,6 @@ body > nav div {
 .fwh-slide1 {
   height: 100vh;
   color: #faf9f9;
-  box-sizing: border-box;
-}
-
-.fwh-slide2 {
-  height: 100vh;
-  color: black;
   box-sizing: border-box;
 }
 
@@ -95,7 +89,9 @@ body > nav div {
 }
 
 .about__content {
+  display: flex;
   flex-direction: column;
+  margin-bottom: 50px;
 }
 
 .skills__item:not(:last-child) {
@@ -113,6 +109,10 @@ a,
 a:hover {
   text-decoration: none;
   transition: color 0.3s ease-in-out;
+}
+
+.filter-green{
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
 }
 
 /* Cards */
@@ -346,3 +346,5 @@ a:hover {
     );
   }
 }
+
+

@@ -93,7 +93,9 @@ body > nav div {
 }
 
 .about__content {
+  display: flex;
   flex-direction: column;
+  margin-bottom: 50px;
 }
 
 .skills__item:not(:last-child) {
@@ -105,6 +107,11 @@ a,
 a:hover {
   text-decoration: none;
   transition: color 0.3s ease-in-out;
+}
+
+.blah {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Cards */
