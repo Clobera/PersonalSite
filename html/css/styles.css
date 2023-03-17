@@ -16,7 +16,7 @@ nav {
 
 .mainPageHeader {
   text-align: center;
-  color: #34241f;
+  color: #49ac7a;
   font-weight: 300;
 }
 
@@ -26,15 +26,20 @@ nav {
 }
 
 #mainHeaderTwo {
-  color: #77655f;
+  color: #5d6687;
 }
 
 body {
+  background-color: #ffffff;
   font-family: "Josefin Sans", sans-serif;
 }
 
+#navbarSupportedContent > ul > li {
+  color: #5d6687;
+}
+
 #navbarSupportedContent > ul > li > a:hover {
-  color: #c7a192;
+  color: #848eb2;
 }
 
 .fwh-slide1 {
@@ -55,6 +60,7 @@ body {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 300;
   font-size: 3.5rem;
+  color: #49ac7a;
 }
 
 .abtRow {
@@ -66,12 +72,14 @@ body {
   font-size: 1.5rem;
   line-height: 1.8;
   text-align: left;
+  color: #ffffff;
   font-family: "Josefin Sans", sans-serif;
 }
 
 .skills {
   display: flex;
   justify-content: center;
+  color: #ffffff;
 }
 
 .skill__row {
@@ -85,6 +93,9 @@ body {
   display: flex;
   flex-direction: column;
   margin-bottom: 50px;
+  border-radius: 15px;
+  background-color: #5d6687;
+  box-shadow: 2px 0px 18px 9px lightgrey;
 }
 
 .skills__item:not(:last-child) {
@@ -96,6 +107,7 @@ a,
 a:hover {
   text-decoration: none;
   transition: color 0.3s ease-in-out;
+  color: #faeded;
 }
 
 .filter-green {
@@ -114,10 +126,10 @@ a:hover {
   color: #ffffff;
 }
 .postcard.light {
-  background-color: #a19592;
+  background-color: #5d6687;
 }
 .postcard .t-dark {
-  color: #5b4b45;
+  color: #ffffff;
 }
 .postcard a {
   color: inherit;
@@ -149,7 +161,7 @@ a:hover {
   height: 10px;
   margin: 10px 0;
   border-radius: 5px;
-  background-color: #424242;
+  background-color: #49ac7a;
   transition: width 0.2s ease;
 }
 .postcard .postcard__text {
@@ -174,7 +186,7 @@ a:hover {
 }
 .postcard .postcard__tagbox .tag__item {
   display: inline-block;
-  background: rgba(143, 127, 127, 0.4);
+  background: #49ac7a;
   border-radius: 3px;
   padding: 2.5px 10px;
   margin: 0 5px 5px 0;
@@ -185,7 +197,7 @@ a:hover {
   transition: background-color 0.3s;
 }
 .postcard .postcard__tagbox .tag__item:hover {
-  background: rgba(143, 127, 127, 0.8);
+  background: #359967;
 }
 .postcard:before {
   content: "";
@@ -261,12 +273,12 @@ a:hover {
     width: 55px;
   }
   .postcard.light .postcard__text:before {
-    background: #a19592;
+    background: #5d6687;
   }
 }
 /* COLORS */
 .blue .postcard__title:hover {
-  color: #424242;
+  color: #cec9c9;
 }
 
 .blue::before {

@@ -18,7 +18,7 @@ nav {
 
 .mainPageHeader {
   text-align: center;
-  color: #34241f;
+  color: #49ac7a;
   font-weight: 300;
 }
 #mainHeader {
@@ -27,21 +27,22 @@ nav {
 }
 
 #mainHeaderTwo {
-  color: #77655f;
+  color: #5d6687;
 }
 
 body {
   //   background-image: linear-gradient(#a19592, #faf9f9, white);
   // background-image: linear-gradient(to bottom right, #a19592, #faeddb);
+  background-color: #ffffff;
   font-family: $coolFont;
 }
 
-body > nav div {
-  // background-color: #a19592;
+#navbarSupportedContent > ul > li{
+  color: #5d6687;
 }
 
 #navbarSupportedContent > ul > li > a:hover {
-  color: #c7a192;
+  color: #848eb2;
 }
 
 .fwh-slide1 {
@@ -62,6 +63,7 @@ body > nav div {
   font-family: $coolFont;
   font-weight: 300;
   font-size: 3.5rem;
+  color: #49ac7a;
 }
 
 .abtRow {
@@ -73,12 +75,14 @@ body > nav div {
   font-size: 1.5rem;
   line-height: 1.8;
   text-align: left;
+  color: #ffffff;
   font-family: $coolFont;
 }
 
 .skills {
   display: flex;
   justify-content: center;
+  color: #ffffff;
 }
 
 .skill__row {
@@ -92,6 +96,9 @@ body > nav div {
   display: flex;
   flex-direction: column;
   margin-bottom: 50px;
+  border-radius: 15px;
+  background-color: #5d6687;
+  box-shadow: 2px 0px 18px 9px lightgrey;
 }
 
 .skills__item:not(:last-child) {
@@ -101,7 +108,7 @@ body > nav div {
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
 $main-blue: #0076bd !default;
 $main-blue-rgb-015: rgba(0, 118, 189, 0.1) !default;
-$cardBack: #a19592;
+$cardBack: #5d6687;
 
 /* This pen */
 
@@ -109,6 +116,7 @@ a,
 a:hover {
   text-decoration: none;
   transition: color 0.3s ease-in-out;
+  color: #faeded;
 }
 
 .filter-green{
@@ -132,7 +140,7 @@ a:hover {
   }
 
   .t-dark {
-    color: #5b4b45;
+    color: #ffffff;
   }
 
   a {
@@ -170,7 +178,7 @@ a:hover {
     height: 10px;
     margin: 10px 0;
     border-radius: 5px;
-    background-color: #424242;
+    background-color: #49ac7a;
     transition: width 0.2s ease;
   }
 
@@ -198,7 +206,7 @@ a:hover {
 
     .tag__item {
       display: inline-block;
-      background: rgb(143 127 127 / 40%);
+      background: #49ac7a;
       border-radius: 3px;
       padding: 2.5px 10px;
       margin: 0 5px 5px 0;
@@ -208,7 +216,7 @@ a:hover {
 
       &:hover {
         // background: rgba(83, 83, 83, 0.8);
-        background: rgb(143 127 127 / 80%);
+        background: #359967;
       }
     }
   }
@@ -314,7 +322,7 @@ a:hover {
 //   background: $main-blue;
 // }
 .blue .postcard__title:hover {
-  color: #424242;
+  color: #cec9c9;
 }
 // .blue .postcard__bar {
 //   background-color: $main-blue;
