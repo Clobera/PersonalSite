@@ -1,28 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
 .row {
   --bs-gutter-x: 0;
 }
 
-.mainPageHeader {
-  font-family: "Zen Dots", cursive;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+nav {
+  font-family: "Josefin Sans", sans-serif;
 }
 
-nav {
-  font-family: "Zen Dots", cursive;
+.mainPageHeader {
+  font-family: "Josefin Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .mainPageHeader {
   text-align: center;
   color: #34241f;
   font-weight: 300;
-}
-
-body {
-  background-image: linear-gradient(to bottom right, #a19592, #faeddb);
-  font-family: "Zen Dots", cursive;
 }
 
 #mainHeader {
@@ -34,8 +29,8 @@ body {
   color: #77655f;
 }
 
-body > nav div {
-  background-color: #a19592;
+body {
+  font-family: "Josefin Sans", sans-serif;
 }
 
 #navbarSupportedContent > ul > li > a:hover {
@@ -48,12 +43,6 @@ body > nav div {
   box-sizing: border-box;
 }
 
-.fwh-slide2 {
-  height: 100vh;
-  color: black;
-  box-sizing: border-box;
-}
-
 .fwh-slide3 {
   color: black;
   box-sizing: border-box;
@@ -63,7 +52,7 @@ body > nav div {
   margin-top: 5rem;
   margin-bottom: 5rem;
   text-align: center;
-  font-family: "Zen Dots", cursive;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: 300;
   font-size: 3.5rem;
 }
@@ -77,7 +66,7 @@ body > nav div {
   font-size: 1.5rem;
   line-height: 1.8;
   text-align: left;
-  font-family: "Zen Dots", cursive;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .skills {
@@ -109,9 +98,8 @@ a:hover {
   transition: color 0.3s ease-in-out;
 }
 
-.blah {
-  display: flex;
-  flex-direction: column;
+.filter-green {
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
 }
 
 /* Cards */
@@ -129,7 +117,7 @@ a:hover {
   background-color: #a19592;
 }
 .postcard .t-dark {
-  color: #77655f;
+  color: #5b4b45;
 }
 .postcard a {
   color: inherit;

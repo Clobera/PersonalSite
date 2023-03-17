@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
-$coolFont: "Zen Dots", cursive;
+$coolFont: 'Josefin Sans', sans-serif;
 
 .row {
   --bs-gutter-x: 0;
@@ -32,12 +32,12 @@ nav {
 
 body {
   //   background-image: linear-gradient(#a19592, #faf9f9, white);
-  background-image: linear-gradient(to bottom right, #a19592, #faeddb);
+  // background-image: linear-gradient(to bottom right, #a19592, #faeddb);
   font-family: $coolFont;
 }
 
 body > nav div {
-  background-color: #a19592;
+  // background-color: #a19592;
 }
 
 #navbarSupportedContent > ul > li > a:hover {
@@ -132,7 +132,7 @@ a:hover {
   }
 
   .t-dark {
-    color: #77655f;
+    color: #5b4b45;
   }
 
   a {
